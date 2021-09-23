@@ -1,0 +1,14 @@
+class sonu:
+    def __init__(self):
+        self.name = 'rohan'
+
+    @staticmethod
+    def sonigi (string):
+        print("this is good" + string)
+        return 'dog'
+
+si = sonu()
+sohan = sonu()
+print(si.name)
+print(sonu.sonigi ("sohan"))
+sonu.sonigi ("    sohan")
